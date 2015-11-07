@@ -1,0 +1,28 @@
+.container, .cell {
+    border-color: grey;
+    border-style: solid;
+}
+
+.container {
+    border-width: 1px 0 0 1px;
+    margin: 20px auto 0;
+}
+
+.cell {
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cell_alive_true {
+    background-color: black;
+}
+
+.controls__size, .controls__delay {
+    border: 1px solid grey;
+    padding: 1px 3px 1px 1px;
+}
+
+.controls__size, .controls__delay, .controls__go, .controls__pause, .controls__step, .controls__reset {
+    margin-right: 20px;
+}
